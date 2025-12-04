@@ -1,6 +1,7 @@
 // I like these ones.
 // This utilizes an algorithm I developed at the young age of eight years old.
 // That was nine years ago, can you believe it?
+// https://adventofcode.com/2025/day/4
 // hiimjasmine00 December 4, 2025 4:23am (04:23-05:00) EST
 
 const fs = require("fs");

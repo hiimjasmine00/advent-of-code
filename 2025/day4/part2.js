@@ -1,6 +1,7 @@
 // It's good to take a breather every once in a while.
 // I really thought this solution was going to take a long while, but I guess it didn't.
 // Anyway, that's it for now. See you all tomorrow.
+// https://adventofcode.com/2025/day/4#part2
 // hiimjasmine00 December 4, 2025 4:34am (04:34-05:00) EST
 
 const fs = require("fs");
