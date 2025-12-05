@@ -1,7 +1,7 @@
-// I expected this to be a quick win, but BOY was I wrong.
-// This was the first time in this Advent that I had to post to r/adventofcode to get some hints. 
+// NOTE: THIS IS STILL NOT SOLVED.
+// PLEASE DO NOT USE THIS AS A SOLUTION.
 // https://adventofcode.com/2025/day/5#part2
-// hiimjasmine00 December 5, 2024 2:40am (02:40-05:00) EST
+// hiimjasmine00 December 5, 2024
 
 const fs = require("fs");
 const path = require("path");
