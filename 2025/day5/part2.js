@@ -23,17 +23,20 @@ for (let i = 0; i < ranges.length; i++) {
         const minimum = ranges[j];
         if (minimum.length == 0) continue;
         const value = minimum[1] + 1;
-        if (range[0] >= minimum[0] && range[0] <= minimum[0] && range[1] >= value) range[0] = value;
+        if (range[0] >= minimum[0] && range[0] <= minimum[1] && range[1] >= value) range[0] = value;
     }
     for (let j = 0; j < i; j++) {
         const maximum = ranges[j];
         if (maximum.length == 0) continue;
         const value = maximum[0] - 1;
-        if (range[1] >= maximum[0] && range[0] <= maximum[1] && range[0] <= value) range[1] = value;
+        if (range[1] >= maximum[0] && range[1] <= maximum[1] && range[0] <= value) range[1] = value;
+    }
+    for (let j = 0; j < i; j++) {
+        const child = ranges[j];
+        if (child.length == 0) continue;
+        if (range[0] <= child[0] && range[1] >= child[1]) child.splice(0, child.length);
     }
 }
-
-console.log(ranges);
 
 let fresh = 0;
 for (const range of ranges) {
