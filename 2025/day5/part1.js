@@ -2,7 +2,7 @@
 // I'm now using some more descriptive variable names for this one.
 // This should be easy enough.
 // https://adventofcode.com/2025/day/5
-// hiimjasmine00 December 5, 2024 1:32am (01:32-05:00) EST
+// hiimjasmine00 December 5, 2025 1:32am (01:32-05:00) EST
 
 const fs = require("fs");
 const path = require("path");
