@@ -1,7 +1,7 @@
 // After a two-hour nap and a post on r/adventofcode, I finally figured it out.
 // I thought this would be an easy win, but BOY was I wrong.
 // https://adventofcode.com/2025/day/5#part2
-// hiimjasmine00 December 5, 2024 5:28am (05:32-05:00) EST
+// hiimjasmine00 December 5, 2024 5:28am (05:28-05:00) EST
 
 const fs = require("fs");
 const path = require("path");
