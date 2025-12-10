@@ -1,0 +1,12 @@
+{
+  "name": "advent-of-code-2025-day-10",
+  "version": "1.0.0",
+  "description": "Advent of Code 2025 day 10",
+  "main": "index.js",
+  "author": "hiimjasmine00",
+  "license": "Unlicense",
+  "packageManager": "pnpm@10.25.0",
+  "dependencies": {
+    "z3-solver": "^4.15.4"
+  }
+}
